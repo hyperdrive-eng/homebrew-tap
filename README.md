@@ -1,30 +1,39 @@
-# Hyperdrive Engineering Tap
+# Hyperdrive Tap
 
-Homebrew formulae for Hyperdrive Engineering tools.
+## What is Homebrew?
 
-## Available Formulae
+Package manager for macOS (or Linux), see more at https://brew.sh
 
-- `workback`
+## What is a Tap?
 
-## Installation
+A third-party (in relation to Homebrew) repository providing installable
+packages (formulae) on macOS and Linux.
 
-You can install directly with:
+See more at https://docs.brew.sh/Taps
 
-```bash
+## How do I install packages from here?
+
+```sh
+brew install hyperdrive-eng/tap/<name>
+```
+
+## How do I upgrade packages from here?
+
+```sh
+brew upgrade hyperdrive-eng/tap/<name>
+```
+
+## What packages are available?
+
+With the following command, you can install the latest version:
+
+```sh
+# Formulae
 brew install hyperdrive-eng/tap/workback
 ```
 
-Alternatively, you can tap the repository first and then install:
+## How do I check versions?
 
-```bash
-brew tap hyperdrive-eng/tap
-brew install workback
+```sh
+workback version
 ```
-
-## Development
-
-To update formulas when new versions are released:
-
-1. Update the URL and SHA256 in the formula file
-2. Commit and push changes
-3. Users can update with `brew update` followed by `brew upgrade workback`
