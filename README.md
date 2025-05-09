@@ -11,29 +11,20 @@ packages (formulae) on macOS and Linux.
 
 See more at https://docs.brew.sh/Taps
 
-## How do I install packages from here?
+## How do I install the package?
 
 ```sh
-brew install hyperdrive-eng/tap/<name>
-```
-
-## How do I upgrade packages from here?
-
-```sh
-brew upgrade hyperdrive-eng/tap/<name>
-```
-
-## What packages are available?
-
-With the following command, you can install the latest version:
-
-```sh
-# Formulae
 brew install hyperdrive-eng/tap/workback
 ```
 
-## How do I check versions?
+## How do I upgrade the package?
 
 ```sh
-workback version
+brew install hyperdrive-eng/tap/workback
+```
+
+## How do I uninstall the package?
+
+```sh
+brew uninstall hyperdrive-eng/tap/workback
 ```
