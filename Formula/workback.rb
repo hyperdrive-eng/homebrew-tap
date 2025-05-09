@@ -4,7 +4,7 @@ class Workback < Formula
   desc  "An agentic debugging tool that lives in your terminal and helps you debug faster - all through natural language commands."
   homepage "https://hyperdrive.engineering"
   url "https://files.pythonhosted.org/packages/source/w/workback/workback-0.1.2.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "8dca3ac94453aee68b4f79a824618a31d136be921aa14c9101f993d846d8174e"
   license "All rights reserved"
 
   depends_on "python3"
